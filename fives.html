@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="author" content="Made with love by Ursula Parker <3 490">
+            
+        <title>The 5 S's</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sacramento">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Text+Me+One">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
+
+        <script>
+            $(document).ready(function () {
+                $('.carousel').carousel({
+                    duration: 1000,
+                    indicators: true,
+                    numVisible: 5
+                });
+                setInterval(function() {
+                    $('.carousel').carousel('next');
+                }, 5000);
+            });
+        </script>
+    </head>
+    <body>
+        <header id="header">
+            <div id="banner">
+                <div id="mainText">
+                    <a href="index.html"><h1 id="mainName">Delta Phi Epsilon</h1></a>
+                    <p id="subtitle">Beta Upsilon Chapter</p>
+                </div>
+                <img id="crest" src="images/crest.png">
+            </div>
+
+            <nav id="navbar">
+                <div id="navWrapper" class="nav-wrapper">
+                    <ul id="navLinks">
+                        <li><a href="index.html">Sisterhood</a></li>
+                        <li><a href="service.html">Philanthropy</a></li>
+                        <li><a href="fives.html">The 5 S's</a></li>
+                        <li><a href="recruitment.html">Recruitment</a></li>
+                        <a href="aboutus.html" class="right">About Us</a>
+                    </ul>
+                </div>
+            </nav>
+            <hr id="line">
+        </header>
+        <div>
+            <div>
+                <h1 class="pageTitle">The 5 S's</h1>
+                <hr id="pageLine">
+            </div>   
+            <div class="carousel" id="carousel-background">
+                <a class="carousel-item" style="width: 220px !important;" href="#one!"><img class="carouselImage" src="images/fives1.jpg"></a>
+                <a class="carousel-item" style="width: 220px !important;" href="#two!"><img class="carouselImage" src="images/fives2.jpg"></a>
+                <a class="carousel-item" style="width: 220px !important;" href="#three!"><img class="carouselImage" src="images/fives3.jpg"></a>
+                <a class="carousel-item" style="width: 220px !important;" href="#four!"><img class="carouselImage" src="images/fives4.jpg"></a>
+            </div>
+            <div id="content">
+                <h1 id="contentTitle">The 5 S's</h1>
+                <p class="contentPara">
+                    Delta Phi Epsilon Sorority has identified five areas of development and personal growth among our members 
+                    which cultivate a well-rounded and balanced sister. These areas are known as our five S’s: <b>Sisterhood, 
+                        Scholarship, Service, Self, and Social</b>. Each active undergraduate member of DPhiE is expected to complete 21 
+                    PEARLs (Personal Enrichment Activities for Responsible Living) each academic year. The purpose behind this is so 
+                    that each sister can intentionally engage in activities that fulfill areas of each of the five S’s. 
+                </p>
+                <p class="contentPara">
+                    <u><b>SISTERHOOD</b></u><br>
+                    Sisterhood is one of the most essential part of a sorority. It helps create a supportive environment and a 
+                    stronger chapter. We learn about how Delta Phi Epsilon came to be, as well as bonding with a chapter and learning 
+                    about what it means to be a sister.
+                </p>
+                <p class="contentPara">
+                    <u><b>SCHOLARSHIP</b></u><br>
+                    The Scholarship PEARL helps sisters excel in their studies. We learn new study habits and time management skills 
+                    to help us succeed not only in school but in the workplace as well.
+                </p>
+                <p class="contentPara">
+                    <u><b>SERVICE</b></u><br>
+                    Delta Phi Epsilon is very involved with their Philanthropies. We support the Cystic Fibrosis Foundation, ANAD, and the 
+                    Delta Phi Epsilon Educational Foundation. As a chapter, we love to help contribute to make our community and world a 
+                    better place.
+                </p>
+                <p class="contentPara">
+                    <u><b>SELF</b></u><br>
+                    Self PEARLS help the sisters of Delta Phi Epsilon practice healthy habits. We make sure everyone knows the importance 
+                    of physical and well being. Taking care of yourself should always come first!
+                </p>
+                <p class="contentPara">
+                    <u><b>SOCIAL</b></u><br>
+                    Social PEARLS help create bonds with other greek and non-greek organizations. This betters the chapter’s 
+                    communication skills. This also exposes the chapter to new perspectives and new experiences.
+                </p>
+            </div>
+        </div>
+        <footer>
+            <hr id="line">
+            <div id="connect">
+                <h1 id="connectWithUs">Connect With Us!</h1>
+                <a href="https://www.instagram.com/ritdphie/" target="_blank" rel="noopener noreferrer"><img src="images/instagram.png" style="height: 60px;"></a>
+                <a href="https://www.facebook.com/DeltaPhiEpsilon.BU.RIT/" target="_blank" rel="noopener noreferrer"><img src="images/facebook.png" style="height: 50px;"></a>
+                <a href="https://campusgroups.rit.edu/feeds?type=club&type_id=16124&tab=about" target="_blank" rel="noopener noreferrer"><img src="images/campusgroups.png" style="height: 65px;"></a>
+                <a href="https://dphie.org/" target="_blank" rel="noopener noreferrer"><img src="images/hq.png" style="height: 52px;"></a>
+            </div>
+            <div id="copywright">
+                <p>© Delta Phi Epsilon: Beta Upsilon Chapter, 2023</p>
+            </div>
+        </footer>
+    </body>
+</html>

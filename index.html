@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="author" content="Made with love by Ursula Parker <3 490">
+
+        <title>DPhiE at RIT</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sacramento">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Text+Me+One">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
+
+        <script>
+            $(document).ready(function () {
+                $('.carousel').carousel({
+                    duration: 1000,
+                    indicators: true
+                });
+                setInterval(function() {
+                    $('.carousel').carousel('next');
+                }, 5000);
+            });
+        </script>
+    </head>
+    <body>
+        <header id="header">
+            <div id="banner">
+                <div id="mainText">
+                    <a href="index.html"><h1 id="mainName">Delta Phi Epsilon</h1></a>
+                    <p id="subtitle">Beta Upsilon Chapter</p>
+                </div>
+                <img id="crest" src="images/crest.png">
+            </div>
+
+            <nav id="navbar">
+                <div id="navWrapper" class="nav-wrapper">
+                    <ul id="navLinks">
+                        <li><a href="index.html">Sisterhood</a></li>
+                        <li><a href="service.html">Philanthropy</a></li>
+                        <li><a href="fives.html">The 5 S's</a></li>
+                        <li><a href="recruitment.html">Recruitment</a></li>
+                        <a href="aboutus.html" class="right">About Us</a>
+                    </ul>
+                </div>
+            </nav>
+            <hr id="line">
+        </header>
+        <div>
+            <div>
+                <h1 class="pageTitle">Welcome to DPhiE at RIT!</h1>
+                <hr id="pageLine">
+            </div>   
+            <div class="carousel" id="carousel-background">
+                <a class="carousel-item" href="#one!"><img class="carouselImage" src="images/sisterhood1.jpg"></a>
+                <a class="carousel-item" href="#two!"><img class="carouselImage" src="images/sisterhood2.jpg"></a>
+                <a class="carousel-item" href="#three!"><img class="carouselImage" src="images/sisterhood3.jpg"></a>
+            </div>
+            <div id="content">
+                <h1 id="contentTitle">Our Sisterhood</h1>
+                <p class="contentPara">
+                    <b>On March 17, 1917,</b> five women at New York University Law School took a pledge of sisterhood and loyalty 
+                    and so founded the Alpha Chapter of Delta Phi Epsilon, one of the first non-sectarian, social 
+                    sororities and the only one founded at a professional school. Five years later on March 17, 1922, Delta 
+                    Phi Epsilon was formally incorporated under laws of the State of New York.
+                </p>
+                <p class="contentPara">
+                    <b>Minna Goldsmith Mahler, Eva Effron Robin, Ida Bienstock Landau, Sylvia Steierman Cohn and Dorothy Cohen Schwartzman,</b> 
+                    five young law students saw Delta Phi Epsilon as a society to "Promote good fellowship among 
+                    the women students among the various colleges in the country…to create a secret society composed of these 
+                    women based upon their good moral character, regardless of nationality or creed…to have distinct chapters 
+                    at various colleges..." with the motto <b>Esse Quam Videri: “To be, rather than to seem to be.”</b>
+                </p>
+                <p class="contentPara">
+                    <b>On May 15th, 1995,</b> the 26 Royal Ladies became the Founding Sisters of the Beta Upsilon Chapter of 
+                    Delta Phi Epsilon, located in Rochester, New York as apart of Rochester Institute of Technology. For almost 
+                    30 years the Beta Upsilon has raised sisters of strong character, bringing the ideals of Sisterhood, Justice, 
+                    and Love to RIT’s campus and fostering a sisterhood of over 500 members and alumnae. 
+                </p>
+            </div>
+        </div>
+        <footer>
+            <hr id="line">
+            <div id="connect">
+                <h1 id="connectWithUs">Connect With Us!</h1>
+                <a href="https://www.instagram.com/ritdphie/" target="_blank" rel="noopener noreferrer"><img src="images/instagram.png" style="height: 60px;"></a>
+                <a href="https://www.facebook.com/DeltaPhiEpsilon.BU.RIT/" target="_blank" rel="noopener noreferrer"><img src="images/facebook.png" style="height: 50px;"></a>
+                <a href="https://campusgroups.rit.edu/feeds?type=club&type_id=16124&tab=about" target="_blank" rel="noopener noreferrer"><img src="images/campusgroups.png" style="height: 65px;"></a>
+                <a href="https://dphie.org/" target="_blank" rel="noopener noreferrer"><img src="images/hq.png" style="height: 52px;"></a>
+            </div>
+            <div id="copywright">
+                <p>© Delta Phi Epsilon: Beta Upsilon Chapter, 2023</p>
+            </div>
+        </footer>
+    </body>
+</html>

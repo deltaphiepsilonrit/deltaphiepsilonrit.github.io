@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="author" content="Made with love by Ursula Parker <3 490">
+            
+        <title>About Us</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sacramento">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Text+Me+One">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
+
+        <script>
+            $(document).ready(function () {
+                $('.carousel').carousel({
+                    duration: 1000,
+                    indicators: true
+                });
+                setInterval(function() {
+                    $('.carousel').carousel('next');
+                }, 5000);
+            });
+
+            $(document).ready(function(){
+                $('.tabs').tabs();
+            });
+        </script>
+    </head>
+    <body>
+        <header id="header">
+            <div id="banner">
+                <div id="mainText">
+                    <a href="index.html"><h1 id="mainName">Delta Phi Epsilon</h1></a>
+                    <p id="subtitle">Beta Upsilon Chapter</p>
+                </div>
+                <img id="crest" src="images/crest.png">
+            </div>
+
+            <nav id="navbar">
+                <div id="navWrapper" class="nav-wrapper">
+                    <ul id="navLinks">
+                        <li><a href="index.html">Sisterhood</a></li>
+                        <li><a href="service.html">Philanthropy</a></li>
+                        <li><a href="fives.html">The 5 S's</a></li>
+                        <li><a href="recruitment.html">Recruitment</a></li>
+                        <a href="aboutus.html" class="right">About Us</a>
+                    </ul>
+                </div>
+            </nav>
+            <hr id="line">
+        </header>
+
+        <div>
+            <div>
+                <h1 class="pageTitle">About Us</h1>
+                <hr id="pageLine">
+            </div>   
+            <div class="carousel" id="carousel-background">
+                <a class="carousel-item" style="width: 250px !important;" href="#one!"><img class="carouselImage" src="images/aboutus1.png"></a>
+                <a class="carousel-item" style="width: 200px !important;" href="#two!"><img class="carouselImage" src="images/aboutus2.jpg"></a>
+                <a class="carousel-item" style="width: 300px !important;" href="#three!"><img class="carouselImage" src="images/aboutus3.jpg"></a>
+                <a class="carousel-item" style="width: 300px !important;" href="#four!"><img class="carouselImage" src="images/aboutus4.jpg"></a>
+            </div>
+
+            <div>
+                <ul class="tabs" id="tabBar">
+                    <li class="tab"><a href="#history">History</a></li>
+                    <li class="tab"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div id="history">
+                <div id="content" style="margin-top: 15px !important;">
+                    <h1 id="contentTitle">Our Chapter History</h1>
+                    <p class="contentPara">
+                        <b>On March 15th, 1991</b>, a group of women came together to meet about forming an organization at the Rochester Institute 
+                        of Technology. There was a great deal of diversity among the interested women, but they all possessed a common goal of 
+                        wanting to make a difference. Twelve days later this group, The Royal Ladies, elected officers and began their journey 
+                        toward sisterhood. 
+                    </p>
+                    <p class="contentPara">
+                        <b>On April 26th, 1991</b>, the first initiation ceremony was held to express the ideals of the new organization and 
+                        to initiate the young women as founding sisters of The Royal Ladies. The Royal Ladies instilled their beliefs into 
+                        the organization. They stressed scholarship and service to allow members opportunities to learn more about their role 
+                        in the ever changing world. The diversity of the women in this organization allowed them to support and maintain individualism. 
+                        Looking past their diversity, the members of The Royal Ladies showed the ability to build strong ties of sisterhood and run their 
+                        organization as a whole unit. This is the area where The Royal Ladies stood out among the rest. The Royal Ladies’ initial goal was 
+                        to become a Greek organization. After time, other goals were formed: to understand the true meaning of sisterhood, to develop 
+                        life-long friendships, to be supportive of fellow sisters, and to grow both as individuals and a group by becoming involved on 
+                        campus and in the community. The sisters of The Royal Ladies applied these ideals and goals in their daily life as they continued 
+                        to learn, live and grow. 
+                    </p>
+                    <p class="contentPara">
+                        <b>On April 23rd, 1994</b>, The Royal Ladies became the Gamma Colony of Delta Phi Epsilon. From that time on, the young women 
+                        worked exceptionally hard to achieve the goal of becoming an official chapter of Delta Phi Epsilon.
+                    </p>
+                    <p class="contentPara">
+                        <b>On May 15th, 1995</b>, The Royal Ladies became the founding sisters of the Beta Upsilon Chapter of Delta Phi Epsilon, 
+                        and our sisterhood was installed as one of now 110 international chapters across the United States and Canada. 
+                    </p>
+                    <p class="contentPara">
+                        <b>To this day</b>, the Beta Upsilon chapter strives to uphold and expand upon the foundations provided to us by 
+                        this amazing group of women. Over 500 members and alumnae strong, the Beta Upsilon Chapter continues to strive 
+                        and make meaningful impacts on the Greek Life of RIT, upholding the standards of Justice, Sisterhood, and Love 
+                        bestowed upon us that the Royal Ladies made possible for us almost 30 years ago.
+                    </p>
+                    <p class="contentPara">
+                        <b>Read more about our sorority’s values and symbols that we hold dear, 
+                            on the <a href="https://dphie.org/who-we-are/" target="_blank" rel="noopener noreferrer" style="color: var(--purple); text-decoration: underline;">national website</a>.</b> 
+                    </p>
+                </div>
+            </div>
+            <div id="contact">
+                <div id="content" style="margin-top: 15px !important;">
+                    <h1 id="contentTitle">Contact Us</h1>
+                    <p class="contentPara">
+                        Don’t hesitate to reach out to us using the contact information below!
+                    </p>
+                    <p class="contentPara">
+                        <b>Local Chapter Information:</b><br>
+                        recruitmentdphiebu@gmail.com<br>
+                        608 Charters Way <br>
+                        Rochester, NY, 14623
+                    </p>
+                    <p class="contentPara">
+                        <b>Nationals Contact Information:</b><br>
+                        Delta Phi Epsilon Sorority<br>
+                        251 S. Camac Street<br>
+                        Philadelphia, PA, 19107<br>
+                        (215) 732 - 5901
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <hr id="line">
+            <div id="connect">
+                <h1 id="connectWithUs">Connect With Us!</h1>
+                <a href="https://www.instagram.com/ritdphie/" target="_blank" rel="noopener noreferrer"><img src="images/instagram.png" style="height: 60px;"></a>
+                <a href="https://www.facebook.com/DeltaPhiEpsilon.BU.RIT/" target="_blank" rel="noopener noreferrer"><img src="images/facebook.png" style="height: 50px;"></a>
+                <a href="https://campusgroups.rit.edu/feeds?type=club&type_id=16124&tab=about" target="_blank" rel="noopener noreferrer"><img src="images/campusgroups.png" style="height: 65px;"></a>
+                <a href="https://dphie.org/" target="_blank" rel="noopener noreferrer"><img src="images/hq.png" style="height: 52px;"></a>
+            </div>
+            <div id="copywright">
+                <p>© Delta Phi Epsilon: Beta Upsilon Chapter, 2023</p>
+            </div>
+        </footer>
+    </body>
+</html>
